@@ -7,7 +7,7 @@ const configOptions = {
 
 const connectToDB = async () => {
   const connectionUrl =
-    "your-mongodb-url";
+    "mongodb://localhost:27017/fullstack";
 
   mongoose
     .connect(connectionUrl, configOptions)
